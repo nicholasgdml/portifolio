@@ -59,6 +59,14 @@ a:hover {
     color: #7209B7;
 }
 
+main {
+    margin: 70px 110px
+}
+
+.text {
+
+}
+
 @media only screen and (max-device-width: 840px) {
     header {
         flex-direction: column;
@@ -66,3 +74,4 @@ a:hover {
         padding: 0;
     }
     }
+
