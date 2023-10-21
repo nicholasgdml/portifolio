@@ -64,7 +64,21 @@ main {
 }
 
 .text {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
 
+#text-hello {
+    color: #7209B7; 
+    font-weight: 600;
+}
+
+#text-desenvolvedor {
+    font-family: 'Kanit', sans-serif;
+    font-size: 80px;
+    font-weight: 700; 
 }
 
 @media only screen and (max-device-width: 840px) {
