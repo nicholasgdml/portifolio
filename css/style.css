@@ -81,6 +81,8 @@ main {
     font-weight: 700; 
 }
 
+
+
 @media only screen and (max-device-width: 840px) {
     header {
         flex-direction: column;
