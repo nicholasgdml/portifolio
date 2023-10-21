@@ -60,7 +60,8 @@ a:hover {
 }
 
 main {
-    margin: 70px 110px
+    margin: 70px auto;
+    width: 80%;
 }
 
 .text {
