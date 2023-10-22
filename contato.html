@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
     <header>
@@ -26,6 +27,25 @@
             </ul>
         </nav>
     </header>
-    
+    <main>
+        <h1 id="tittle-text">Fale comigo</h1>
+        <div class="box">
+            <section class="img-box">
+                <img src="content/image/mail-icon.png" alt="Icone de Email">
+            </section>
+            
+            <section class="form-box">
+            
+                <form class="text">
+                    <input type="text" id="nome" name="nome" placeholder="Nome" required><br><br>
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required><br><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+                    <textarea id="mensagem" name="mensagem" placeholder="Mensagem" rows="4" cols="50" required></textarea><br><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+        
+    </main>
 </body>
 </html>
